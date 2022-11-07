@@ -51,3 +51,10 @@ function fetchData(a) {
         document.getElementById("mail6").innerHTML = mail3;
       });
   }
+let navBtn = document.getElementById("get_users");
+  navBtn.addEventListener("click", () => {
+      cards.innerHTML = `<h1 class='load'>Wait... <span >  <i class="fas fa-sync fa-spin" style="font-size:50px"></i></span></h1>`;
+      setTimeout(() => {
+          fetchData();
+      }, 2000);
+  });
