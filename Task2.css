@@ -48,8 +48,11 @@ table {
     background: transparent;
   }
   tr{
-    border: 2px solid black;
+    border: 2px solid rgb(54, 27, 177);
   }
   table tr :hover {
-    background-color: black;
+    background-color: rgb(206, 226, 113);
+  }
+  span{
+    visibility: inherit;
   }
